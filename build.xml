@@ -4,7 +4,7 @@
     <property name="resources.dir"     value="src/main/resources"/>
     <property name="build.dir"   value="build"/>
     <property name="classes.dir" value="${build.dir}/classes"/>
-    <property name="main-class"  value="com.sainet.Main"/>
+    <property name="main-class"  value="org.nyway.Main"/>
     <property name="ant.project.name"  value="push"/>
 
     <path id="maven-ant-tasks.classpath" path="lib/maven-ant-tasks-2.1.3.jar" />
