@@ -38,7 +38,7 @@
     <target name="run" depends="compile">
         <echo>basedir= ${basedir}</echo>
         <java classname="${main-class}" fork="true" classpathref="base.path" >
-            <arg value="bar"/>
+            <arg value="${fileName}"/>
         </java>
     </target>
 
