@@ -28,7 +28,7 @@
 
     <target name="compile">
         <mkdir dir="${classes.dir}"/>
-        <javac srcdir="${src.dir}" destdir="${classes.dir}" classpathref="base.path" />
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" classpathref="base.path" includeantruntime="false" />
         <copy todir="${classes.dir}">
             <fileset dir="${resources.dir}"
                      includes="**/*.xml,**/*.properties,**/*.txt,**/*.ico" />
